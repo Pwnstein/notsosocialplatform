@@ -1,0 +1,57 @@
+body {
+  font-family: sans-serif;
+  background: #faf6e9;
+  margin: 0;
+  padding: 0 16px;
+}
+
+h1 {
+  color: #95602a;
+  text-align: center;
+  margin: 20px 0 12px 0;
+}
+
+#notes {
+  list-style: none;
+  padding: 0;
+}
+
+#notes li {
+  background: #fffb8f;
+  margin: 10px 0;
+  padding: 18px 12px;
+  border-radius: 9px;
+  box-shadow: 2px 3px 7px #bba;
+  max-width: 98vw;
+  word-break: break-all;
+  display: flex;
+  align-items: center;
+}
+
+.postit-image {
+  max-width: 80px;
+  max-height: 80px;
+  margin-right: 12px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 1px solid #ddc256;
+  object-fit: cover;
+}
+
+.meta-preview {
+  margin-left: 8px;
+}
+
+#noteform {
+  margin-top: 18px;
+  display: flex;
+  justify-content: center;
+}
+
+#note-url {
+  flex: 1;
+  padding: 9px;
+  margin-right: 10px;
+  border: 1px solid #cccc84;
+  border-radius: 5px;
+}
