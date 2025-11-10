@@ -44,5 +44,5 @@ app.get('/notes.json', (req, res) => {
   res.sendFile(notesPath);
 });
 
-const PORT = 8080;
-app.listen(PORT, () => console.log('Server draait op poort ' + PORT));
+const PORT = process.env.PORT || 8080;
+app.listen(PORT, () => console.log(`Server draait op poort ${PORT}`));
